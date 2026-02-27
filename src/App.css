@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.maincard{
+  background-color: rgba(165, 42, 42, 0.183);
+  height: 100vh;
+}
+.info{
+  background-color: rgba(137, 43, 226, 0.315);
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info img{
+  height: 80%;
+  width: 50%;
+}
+.main{
+  display: flex;
+}
+.maincard{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.task h2{
+  background-color: brown;
+}
