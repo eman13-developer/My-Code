@@ -11,6 +11,8 @@ import { Herosection } from './testing/testing'
 import Useeffect from './hooks/useEffect';
 import Apifetching from './Api-fetching/api';
 import Taskapi from './Api-fetching/taskapi';
+import News from "./project NEWS/news"
+import Testingbg from './testingbackground/testingbg';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App/> */}
@@ -22,6 +24,8 @@ createRoot(document.getElementById('root')).render(
     <Testing/> */}
     {/* <Useeffect/> */}
     {/* <Apifetching/> */}
-    <Taskapi/>
+    {/* <Taskapi/> */}
+    {/* <News/> */}
+    <Testingbg/>
   </StrictMode>,
 )
